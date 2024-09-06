@@ -29,7 +29,8 @@ This project is a simple data logger for microcontrollers (Arduino, ESP32, STM32
 3. Upload the code to your ESP32-C3 board.
 4. Open the serial monitor at 115200 baud to view initialization messages and sensor data logging status.
 
-## Future Improvements
+## Customizability
 
 - Implement actual sensor readings by replacing the `ReadSensor1()` and `ReadSensor2()` functions with real sensor code.
-- Add features to customize logging intervals and sensor configurations via serial commands.
+- Add or remove the amount of sensors being recorded.
+- Customize logging intervals.
